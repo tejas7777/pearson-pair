@@ -12,42 +12,42 @@ npm pearson-pair
 npm pearson-pair
 ```
 
-##Import
+## Import
 
 ```JavaScript
 const PearsonPair = require('PearsonPair')
 ```
 
-##Use
+## Use
 
-###Create a pearson-pair object
+### Create a pearson-pair object
 
 ```JavaScript
 pcor = PearsonPair([[1,2,3],[2,2,4],[3,2,4],[3,4,7]])
 ```
 
-###Find the closest pair
+### Find the closest pair
 
 ```JavaScript
 pcor.findClosestPair()
 ```
 
-###Find the most distant pair
+### Find the most distant pair
 
 ```JavaScript
 pcor.findDistantPair()
 ```
 
-###Get the correlation matrix
+### Get the correlation matrix
 ```JavaScript
 pcor.getCorrelationMatrix()
 ```
-###Get the highest correlation along with the pair indices
+### Get the highest correlation along with the pair indices
 ```JavaScript
 pcor.getHighest()
 ```
 
-###Get the lowest correlation along with the pair indices
+### Get the lowest correlation along with the pair indices
 ```JavaScript
 pcor.getLowest()
 ```
