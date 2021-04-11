@@ -5,11 +5,11 @@ JavaScript package to form pairs of highest and lowest correlation arrays.
 
 ### To install globally
 ```
-npm pearson-pair
+npm install pearson-pair
 ```
 ### To install locally
 ```
-npm pearson-pair
+npm install pearson-pair --save
 ```
 
 ## Import
