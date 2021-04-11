@@ -15,7 +15,7 @@ npm pearson-pair
 ## Import
 
 ```JavaScript
-const PearsonPair = require('PearsonPair')
+const PearsonPair = require('pearson-pair')
 ```
 
 ## Use
